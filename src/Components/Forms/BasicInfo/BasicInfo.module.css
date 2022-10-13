@@ -1,0 +1,66 @@
+.BasicInfoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > h3 {
+  margin-left: 25px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.flexBox > input {
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-top: 40px;
+}
+
+.name > input {
+  margin-right: 5px;
+}
+
+.contact > input:first-child {
+  flex: 0.3;
+  margin-right: 5px;
+}
+
+.contact > input:last-child {
+  flex: 0.7;
+}
+
+.location > input {
+  margin-right: 5px;
+}
+
+.education > input:first-child {
+  flex: 0.7;
+}
+
+.education > input:last-child {
+  flex: 0.3;
+  margin-left: 5px;
+}
+
+.nextButton {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
