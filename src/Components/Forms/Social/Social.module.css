@@ -1,0 +1,47 @@
+.BasicInfoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > h3 {
+  margin-left: 25px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexBox > input {
+  margin-bottom: 15px;
+}
+
+.svgIcon {
+  fill: white;
+}
+
+.nextButton {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.svgIcon {
+  height: 40px;
+  width: 40px;
+}
