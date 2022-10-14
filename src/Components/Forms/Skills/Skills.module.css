@@ -1,0 +1,46 @@
+.BasicInfoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading > h3 {
+  margin-left: 25px;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.flexBox > input {
+  margin: 0 15px;
+}
+
+.nextButton {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 25px 0;
+}
+

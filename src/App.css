@@ -1,78 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: #121212;
+  color: white;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .page {
   display: flex;
-  justify-content: space-between;
+  width: 100vw;
 }
 
-.sideBar {
-  position: sticky;
-  top: 0px;
-  width: calc((100vw - 800px)*0.45);
-  border-right: 1px solid rgb(63, 63, 63);
-  color: white;
-  height: 100vh;
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
 }
 
-.rightBar {
-  position: sticky;
-  top: 0px;
-  width: calc((100vw - 800px)*0.55);
-  border-left: 1px solid rgb(63, 63, 63);
-  color: white;
-  height: 100vh;
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
 }
 
-.mainWindow {
-  width: 800px;
+*::-webkit-scrollbar-track {
+  background: #1d1d1d;
 }
 
-/* Text Field */
-.sc-fWIMVQ {
-  background-color: transparent !important;
-  border-right: 0px !important;
-  border-top: 0px !important;
-  border-left: 0px !important;
-  border-radius: 0px !important;
-  border-bottom: 1px solid rgb(63, 63, 63) !important;
-  color: white !important;
-  height: 90px !important;
-}
-
-/* Text Area */
-.sc-jWEIYm {
-  color: white !important;
-  fill: white !important;
-  font-size: 20px !important;
-  height: 10px !important;
-}
-
-.rdMZu {
-    min-height: 90px !important;
-}
-
-a:-webkit-any-link {
-  cursor: pointer;
-  text-decoration: none !important;
-  height: 0px !important;
-}
-
-.logout{
-  display: flex;
-  justify-content: end;
-  margin-right: 100px;
-  font-weight: bold;
-}
-
-.logout:hover {
-  color:gray;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.loginPage {
-  height: 100vh;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
+*::-webkit-scrollbar-thumb {
+  background-color: #302f2f;
+  border-radius: 20px;
 }
